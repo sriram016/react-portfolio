@@ -1,0 +1,38 @@
+.slideSec{
+  padding: 20px 0;
+}
+.logoSlider{
+    animation: 20s slide infinite linear;
+}
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+    
+}
+.logos{
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    display: flex;
+}
+.silderText{
+    display: inline-block;
+    font-size: 100px;
+    line-height: 120px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #FFF;
+    font-weight: 700;
+    will-change: transform;
+    color: transparent;
+}
+.silderText::before{
+    content: '_';
+    color: transparent;
+}
+.slideSpan{
+    color: #fff;
+}

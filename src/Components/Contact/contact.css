@@ -1,0 +1,44 @@
+.contactSec{
+    padding: 110px 0;
+    background: #171717;
+}
+.contactTitle{
+    font-size: 70px;
+    font-weight: 800;
+}
+.contactTitleTime{
+    font-size: 30px;
+    padding-top: 20px;
+    font-weight: 600;
+}
+.contactTitleDay{
+    padding-top: 10px;
+    font-size: 20px;
+    color: #8b9090;
+}
+.contactBtn{
+    border: none;
+    background: #ffdb59;
+    padding: 40px 20px;
+    font-size: 45px;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+@media (max-width:768px){
+    .contactTitle{
+        font-size: 40px;
+    }
+    .contactBtn{
+        font-size: 25px;
+        width: 150px;
+        height: 150px;
+    }
+    .contactTitleTime{
+        font-size: 27px;
+    }
+}

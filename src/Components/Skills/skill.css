@@ -1,0 +1,47 @@
+.skill{
+    padding: 110px 0;
+    background: #171717;
+}
+.skillTitle h6{
+    color: #ffdb59;
+    font-size: 38px;
+    font-weight: 600;
+}
+.skillTitle h3{
+    color: #fff;
+    font-size: 70px;
+    font-weight: 800;
+}
+.skilBox{
+    background: #171b22;
+    text-align: center;
+    padding: 50px 0;
+    border-radius: 110px;
+}
+.skilBox:hover{
+    background: #ffdb59;
+    color: #171717;
+}
+.skillIcon{
+    font-size: 80px;
+}
+.skilBox h3{
+    font-size: 90px;
+    font-weight: 900;
+    padding-top: 10px;
+}
+.skilBox h5{
+    font-weight: 700;
+}
+
+@media (max-width:768px){
+    .skillTitle h3{
+        font-size: 40px;
+    }
+    .skillTitle h6{
+        font-size: 28px;
+    }
+    .skilBox h3{
+        font-size: 60px;
+    }
+}

@@ -1,0 +1,83 @@
+.footer{
+    padding: 110px 0 0 0;
+}
+.footer-logo img{
+    width: 250px;
+}
+.footer-logo p{
+    padding-top: 20px;
+}
+.contactArea{
+    display: flex;
+    padding: 10px 10px 20px 10px;
+    gap: 20px;
+    align-items: center;
+}
+.contactArea h6{
+    font-size: 20px;
+}
+.footerIcon{
+    font-size: 30px;
+}
+.footerWeiget h4{
+    font-size: 40px;
+    font-weight: 700;
+}
+.footerWeiget{
+    padding-left: 30px;
+}
+.footerLink{
+    padding-top: 20px;
+    font-size: 20px;
+}
+.copyRight{
+    background: #171717;
+    padding: 20px 0;
+    text-align: center;
+}
+.copyRightFlex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copyrightIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copyrightIcon input{
+    width: 100%;
+    max-width: 410px;
+    height: 48px;
+    background-color: #1e1e1e;
+    border:2px solid #ffdb59;
+    color:  #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 15px;
+}
+.copyRightArea p{
+    font-size: 20px;
+}
+.copyrightIcon input:focus{
+    outline: none;
+}
+.footerBtn{
+    border: none;
+    background: #ffdb59;
+    padding: 9px 40px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.formElement{
+    display: flex;
+}
+
+@media(max-width:768px){
+    .footerWeiget{
+        padding-left: 0;
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+}
